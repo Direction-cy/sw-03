@@ -178,7 +178,7 @@ public class HomeFragment extends RecyclerFragment implements HomeAdapter.OnItem
         if(null != usbRoot){
             mainData.add(CommonInfo.from(usbRoot, type));
         }
-        if(null != deviceRoot && isWatch()){
+        if(null != deviceRoot){
             mainData.add(CommonInfo.from(deviceRoot, type));
         }
         if(null != processRoot){
